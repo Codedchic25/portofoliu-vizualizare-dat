@@ -1,0 +1,37 @@
+# Python bytecode și cache (evită folderele de sistem __pycache__)
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Cache specific instrumentului ultra-rapid Astral UV
+.uv_cache/
+
+# Medii virtuale locale (Inclusiv folderul .venv generat de uv)
+venv/
+env/
+.env
+.venv/
+
+# Configurații locale ale editorului de cod (VS Code / PyCharm)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Fișiere de date locale și baze de date (se generează automat la rulare)
+*.db
+*.sqlite3
+angajati.csv
+teme_date_filtrate.csv
+
+# Fișiere temporare de sistem
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
